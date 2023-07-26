@@ -75,11 +75,27 @@ form {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 form section {
   padding: 20px 30px;
+}
+
+.form-top p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
+  width: 70%;
+}
+
+p.sign-up{
+  padding-top: 0;
+}
+
+span.italize {
+  font-style: italic;
 }
 
 .form-mid {
