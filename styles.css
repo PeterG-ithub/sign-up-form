@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.picture-column {
+  background-image: url(./images/fern.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 40%;
+}
+
+.form-column {
+  background-color: rgb(240, 240, 240);
+  height: 100vh;
+  width: 60%;
+}
