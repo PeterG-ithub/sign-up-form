@@ -19,7 +19,7 @@ body {
   position: relative;
   background-image: url(./images/fern.jpg);
   background-size: cover;
-  height: 100vh;
+  height: auto;
   width: 40%;
 }
 
@@ -88,6 +88,7 @@ form section {
   font-size: 2rem;
   padding: 20px;
   width: 70%;
+  flex: 1;
 }
 
 p.sign-up{
@@ -100,15 +101,46 @@ span.italize {
 
 .form-mid {
   background-color: rgb(255, 255, 255);
-  padding: 20px 30px;
+  padding: 20px 30px 40px 30px;
+  flex: 1;
 }
 div.inputs {
   display: flex;
   flex-wrap: wrap;
-  max-width: 70%;
-  gap: 1rem;
+  max-width: 60%;
+  gap: 1.5rem;
 }
 
 label {
   display: block;
+  font-size: 1.3rem;
+}
+
+input {
+  padding: .3rem;
+  font-size: 1rem;
+  border-radius: .3rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.form-bot {
+  flex: 1;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-bot a {
+  color: #596D48;
+}
+
+button {
+  padding: 10px 30px;
+  margin: 30px 0px;
+  color: #E5E7EB;
+  background-color: #596D48;
+  border-radius: .5rem;
+  border: none;
 }
